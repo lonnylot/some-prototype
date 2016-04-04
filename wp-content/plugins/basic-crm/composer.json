@@ -1,0 +1,41 @@
+{
+	"name": "basic-crm",
+	"description": "A basic CRM for keeping track of your clients",
+	"keywords": ["wordpress", "plugin", "generator-plugin-wp"],
+	"homepage": "http://www.tribbletrouble.rocks",
+	"license": "GPLv2",
+	"authors": [
+	{
+		"name": "lonnylot",
+		"homepage": "http://www.tribbletrouble.rocks"
+	}
+	],
+	"minimum-stability": "dev",
+	"type": "wordpress-plugin",
+	"autoload": {
+		"classmap": ["basic-crm.php", "includes/"]
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/lonnylot/CMB2"
+		}
+	],
+	"require": {
+		"php": ">=5.2",
+		"xrstf/composer-php52": "1.*",
+		"webdevstudios/cpt-core": "^1.0",
+		"webdevstudios/cmb2": "dev-patch-1"
+	},
+	"scripts": {
+        "post-install-cmd": [
+            "xrstf\\Composer52\\Generator::onPostInstallCmd"
+        ],
+        "post-update-cmd": [
+            "xrstf\\Composer52\\Generator::onPostInstallCmd"
+        ],
+        "post-autoload-dump": [
+            "xrstf\\Composer52\\Generator::onPostInstallCmd"
+        ]
+    }
+}

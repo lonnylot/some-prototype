@@ -1,0 +1,139 @@
+/*
+Theme Name: Tribble Trouble
+Description: Tribble Trouble customized theme based off of Goran
+Version: 1.2.1
+Author: Tribble Trouble
+Template: edin
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tribble-trouble
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Reset
+2.0 - Typography
+3.0 - Elements
+4.0 - Forms
+5.0 - Navigation
+	5.1 - Links
+	5.2 - Pagination
+	5.3 - Primary Navigation
+	5.4 - Dropdown Toggle
+	5.5 - Footer Navigation
+	5.6 - Social Navigation
+6.0 - Accessibility
+7.0 - Alignments
+8.0 - Clearings
+9.0 - Layout
+10.0 - Widgets
+11.0 - Content
+12.0 - Comments
+13.0 - Media
+	13.1 - Images
+	13.2 - Galleries
+	13.3 - Iframes
+14.0 - Jetpack
+	14.1 - Contact Form
+	14.2 - Galleries
+	14.3 - Infinite Scroll
+	14.4 - Sharedaddy
+	14.5 - Responsive Videos
+	14.6 - Widgets
+	14.7 - Testimonials
+15.0 - Eventbrite
+16.0 - Responsive
+	16.1 - x >= 600px
+	16.2 - x >= 768px
+	16.3 - x >= 1020px
+	16.4 - x >= 1230px
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+5.0 Navigation
+--------------------------------------------------------------*/
+
+.tribble-trouble .main-navigation-full {
+    display: none;
+}
+
+/*--------------------------------------------------------------
+16.0 Responsive
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+16.3 x >= 1020px
+--------------------------------------------------------------*/
+@media screen and (min-width: 1020px) {
+
+    .tribble-trouble .main-navigation-full {
+        display: block;
+        color: inherit;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .tribble-trouble .main-navigation-full a,
+    .tribble-trouble .main-navigation-full a:hover,
+    .tribble-trouble .main-navigation-full a:focus,
+    .tribble-trouble .main-navigation-full a:active {
+        color: inherit;
+    }
+    .tribble-trouble .main-navigation-full.toggle-on .menu-primary {
+        display: block;
+    }
+    .tribble-trouble .menu-primary {
+        display: none;
+    }
+    .tribble-trouble .menu-primary a {
+        display: block;
+    }
+    .tribble-trouble .menu-primary .sub-menu {
+        display: none;
+    }
+    .tribble-trouble .menu-primary .sub-menu.toggle-on {
+        display: block;
+    }
+
+    /* Main Navigation */
+    .tribble-trouble .menu-toggle {
+        display: none;
+    }
+    .tribble-trouble .menu-primary {
+        display: block;
+        padding: 0;
+        background: transparent;
+    }
+    .tribble-trouble .main-navigation-full {
+        margin-top: 24px;
+        margin-right: 36px;
+    }
+    .tribble-trouble .main-navigation-full ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+        text-align: right;
+    }
+    .tribble-trouble .main-navigation-full li {
+        display: inline-block;
+        position: relative;
+        padding: 0;
+        margin-right: 32px;
+        border-top: 0;
+        text-align: left;
+    }
+    .tribble-trouble .main-navigation-full a {
+        display: block;
+        padding-top: 12px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid transparent;
+    }
+    .tribble-trouble .main-navigation-full a:hover,
+    .tribble-trouble .main-navigation-full a:focus,
+    .tribble-trouble .main-navigation-full a:active,
+    .tribble-trouble .main-navigation-full .current_page_item > a,
+    .tribble-trouble .main-navigation-full .current-menu-item > a {
+        border-bottom-color: #000;
+    }
+
+}

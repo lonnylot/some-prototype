@@ -1,0 +1,18 @@
+{
+  "name": "basic-crm",
+  "description": "A basic CRM for keeping track of your clients",
+  "license": "GPLv2",
+  "authors": [
+    "lonnylot"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

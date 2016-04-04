@@ -1,14 +1,14 @@
-vendor/
-node_modules/
+laravel/vendor/
+laravel/node_modules/
 
 # Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+laravel/bootstrap/compiled.php
+laravel/app/storage/
 
 # Laravel 5 & Lumen specific
-bootstrap/cache/
-storage/
-.env.*.php
-.env.php
-.env
-.env.example
+laravel/bootstrap/cache/
+laravel/storage/
+laravel/.env.*.php
+laravel/.env.php
+laravel/.env
+laravel/.env.example

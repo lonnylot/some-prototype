@@ -1,0 +1,24 @@
+{
+	"name": "basic-crm",
+	"title": "Basic CRM",
+	"version": "0.0.0",
+	"description": "A basic CRM for keeping track of your clients",
+	"author": {
+		"name": "lonnylot",
+		"url": "http://www.tribbletrouble.rocks"
+	},
+	"license": "GPLv2",
+	"devDependencies": {
+		"grunt": "latest",
+		"grunt-contrib-watch": "latest",
+		"grunt-wp-i18n": "latest",
+		"grunt-contrib-copy": "latest",
+		"grunt-text-replace": "latest",
+		"load-grunt-tasks": "latest"
+	},
+	"scripts": {
+		"test": "dockunit",
+		"preversion": "npm test",
+		"version": "grunt version && git add ."
+	}
+}

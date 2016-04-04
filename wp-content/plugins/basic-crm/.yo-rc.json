@@ -1,0 +1,17 @@
+{
+  "generator-plugin-wp": {
+    "name": "Basic CRM",
+    "homepage": "http://www.tribbletrouble.rocks",
+    "description": "A basic CRM for keeping track of your clients",
+    "version": "0.0.0",
+    "author": "lonnylot",
+    "authoremail": "lonny@lonnylot.com",
+    "authorurl": "http://www.tribbletrouble.rocks",
+    "license": "GPLv2",
+    "slug": "basic-crm",
+    "classname": "Basic_CRM",
+    "classprefix": "BCRM_",
+    "prefix": "basic_crm",
+    "year": 2016
+  }
+}
