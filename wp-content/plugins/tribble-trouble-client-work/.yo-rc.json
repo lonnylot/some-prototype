@@ -1,0 +1,17 @@
+{
+  "generator-plugin-wp": {
+    "name": "Tribble Trouble Client Work",
+    "homepage": "http://www.tribbletrouble.rocks",
+    "description": "Complete listing of Tribble Trouble client work",
+    "version": "0.0.0",
+    "author": "lonnylot",
+    "authoremail": "lonny@lonnylot.com",
+    "authorurl": "http://www.tribbletrouble.rocks",
+    "license": "GPLv2",
+    "slug": "tribble-trouble-client-work",
+    "classname": "Tribble_Trouble_Client_Work",
+    "classprefix": "TTCW_",
+    "prefix": "tribble_trouble_client_work",
+    "year": 2016
+  }
+}

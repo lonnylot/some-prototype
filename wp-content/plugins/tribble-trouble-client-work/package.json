@@ -1,0 +1,24 @@
+{
+  "name": "tribble-trouble-client-work",
+  "title": "Tribble Trouble Client Work",
+  "version": "0.1.0",
+  "description": "Complete listing of Tribble Trouble client work",
+  "author": {
+    "name": "lonnylot",
+    "url": "http://www.tribbletrouble.rocks"
+  },
+  "license": "GPLv2",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-wp-i18n": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-text-replace": "latest",
+    "load-grunt-tasks": "latest"
+  },
+  "scripts": {
+    "test": "dockunit",
+    "preversion": "npm test",
+    "version": "grunt version && git add ."
+  }
+}
