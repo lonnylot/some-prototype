@@ -12,6 +12,12 @@
 */
 
 Route::get('/', function () {
-	$projects = Project::order_by('created_at', 'desc')->get();
+	$projects = Project::orderBy('created_at', 'desc')->get();
     return view('home', ['projects' => $projects]);
+});
+
+Route::group(['prefix' => 'admin'], function() {
+	Route::auth();
+
+	Route::resource('project', 'ProjectController', ['only' => ['index', 'create', 'store']]);
 });

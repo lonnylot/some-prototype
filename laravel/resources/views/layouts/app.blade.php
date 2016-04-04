@@ -63,6 +63,7 @@
                 </div><!-- .hero -->
                 
                 @yeild('content')
+                
             </div><!-- #content -->
 
             <footer id="colophon" class="site-footer" role="contentinfo">
@@ -80,7 +81,7 @@
             </footer><!-- #colophon -->
         </div><!-- #page -->
 
-        <script type='text/javascript' src='{{ asset('assets/js/navigation.js') }}'></script>
-        <script type='text/javascript' src='{{ asset('assets/js/main.js') }}'></script>
-        </body>
+    <script type='text/javascript' src='{{ asset('assets/js/navigation.js') }}'></script>
+    <script type='text/javascript' src='{{ asset('assets/js/main.js') }}'></script>
+    </body>
 </html>
